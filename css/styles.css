@@ -1,0 +1,51 @@
+body{
+    background: #1f1f1f;
+    color: #bfbfbf;
+    font-size: 18px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.box.greenbox{
+    border-top: 20px;
+}
+.contents{
+    width: 220px;
+    height: 400px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.contents > div.box{
+    margin: 20px auto;
+}
+
+.container{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing{
+    font-size: 60px;
+    text-align: left;;
+}
+.brief{
+    text-align: left;
+    margin-left: 30px;
+}
+hr{
+    width: 100px;
+    text-align: left;
+}
+.charge > h1{
+    display: inline;
+}
